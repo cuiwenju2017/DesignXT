@@ -1,7 +1,12 @@
-布局悬停顶部效果
+### 布局悬停顶部效果
+
 1.引入design库
+```
 implementation 'com.android.support:design:28.0.0'
+```
+
 2.加入布局
+```
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -52,3 +57,4 @@ implementation 'com.android.support:design:28.0.0'
     </android.support.v4.widget.NestedScrollView>
 
 </android.support.design.widget.CoordinatorLayout>
+```
